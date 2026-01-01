@@ -105,4 +105,5 @@ Add model comparison toggle in UI
 Improve feature engineering
 Use real-world housing datasets
 
-#Live Deployed at https://house-price-prediction-regression-ctwpgeqgkjerc6pvec4sys.streamlit.app/
+# Live Deployed at
+https://house-price-prediction-regression-ctwpgeqgkjerc6pvec4sys.streamlit.app/
