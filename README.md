@@ -1,10 +1,12 @@
 House Price Prediction using Machine Learning
 
 Overview
+
 This project predicts house prices using regression techniques based on features such as square footage, number of bedrooms, lot size, year built, and neighborhood quality.
 The goal of this project is to build an end-to-end machine learning pipeline — from data exploration and model training to deployment using a Streamlit web application.
 
 Tech Stack
+
 Python
 Pandas, NumPy – Data handling
 Matplotlib, Seaborn – Visualization
@@ -13,11 +15,12 @@ Streamlit – Web application
 Pickle – Model persistence
 
 Dataset
-Source: Kaggle (House Price Regression Dataset)
 
+Source: Kaggle (House Price Regression Dataset)
 Rows: 1,000
 
 Features:
+
 Square_Footage
 Num_Bedrooms
 Num_Bathrooms
@@ -32,6 +35,7 @@ House_Price
 The dataset contains no missing values, making it suitable for regression modeling.
 
 Project Workflow
+
 Data loading and exploratory data analysis (EDA)
 Feature selection and train-test split
 Model training using:
@@ -48,6 +52,7 @@ Saving trained model and scaler using Pickle
 Deployment using Streamlit
 
 Model Performance
+
 Best R² Score: ~0.99
 Cross-Validation R²: ~0.998
 RMSE: ~10,000 – 20,000 (depending on model)
@@ -66,23 +71,25 @@ Run the app:
 
 streamlit run app.py
 
-How to Run Locally
-# Clone repository
+# How to Run Locally
+## Clone repository
 git clone https://github.com/rohan-crypto/house-price-prediction-regression.git
+
 cd House-Price-Prediction-Regression
 
-# Create virtual environment
+## Create virtual environment
 python3 -m venv venv
 source venv/bin/activate
 
-# Install dependencies
+## Install dependencies
 pip install -r requirements.txt
 
-# Run Streamlit app
+## Run Streamlit app
 streamlit run app.py
 
 
 Key Learnings
+
 End-to-end ML workflow implementation
 Regression model comparison and evaluation
 Feature importance interpretation
@@ -91,6 +98,7 @@ Building interactive ML web apps with Streamlit
 Managing application state in Streamlit
 
 Future Improvements
+
 Add confidence intervals to predictions
 Deploy app on Streamlit Cloud
 Add model comparison toggle in UI
